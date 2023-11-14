@@ -10,12 +10,10 @@ GPIO.setup(led_pin, GPIO.OUT)
 
 def led_on():
     GPIO.output(led_pin, GPIO.HIGH)
-    print("LED eingeschaltet")
 
 
 def led_off():
     GPIO.output(led_pin, GPIO.LOW)
-    print("LED ausgeschaltet")
 
 
 def blinken():
